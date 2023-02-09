@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/* Reset */
+*{
+    box-sizing: border-box;
+}
+html{ 
+    font-size: 62.5%;  
+}
+body{
+    font: 1.6rem sans-serif; 
+    font-family: 'Roboto' sans-serif;
+    margin: 0;
+    background-color: #354c59;
+}
+h1,h2,h3,h4,p,ol,ul,figure,dd{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+h1,h2,h3,h4{
+    font-weight: normal;
+}
+a{
+    text-decoration: none;
+}
+
+header{
+    background-color: #648fa3;
+}
+
+header h1{
+    text-align: center;
+    padding: 3rem;
+}
+
+.formulaire{
+    margin: 5rem auto 2rem;
+    max-width: 90rem;
+
+}
+
+.formulaire legend{
+    text-align: center;
+}
+
+form input{
+    padding: 1rem;
+    width: 85%;
+    margin: 1rem;
+}
+
+label{
+    color: #fff;
+    padding: 2rem;
+}
+
+form{
+    text-align: center;
+    border: 0;
+    padding: 2rem;
+}
+
+.formulaire legend{
+    color: #fff;
+}
+
+.success{
+    color: #fff;
+    text-align: center;
+}
+
+.warning{
+    color: red;
+    text-align: center;
+}
+
+.connected{
+    color: #fff;
+}
